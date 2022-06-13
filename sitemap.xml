@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://amainer.github.io/</loc>
+         <lastmod>2022-06-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://amainer.github.io/Style%20Guide/</loc>
+         <lastmod>2022-06-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://amainer.github.io/data_science/intro/</loc>
+         <lastmod>2022-06-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://amainer.github.io/optimization/intro/</loc>
+         <lastmod>2022-06-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://amainer.github.io/personal_development/intro/</loc>
+         <lastmod>2022-06-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://amainer.github.io/supply_chain/intro/</loc>
+         <lastmod>2022-06-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+</urlset>

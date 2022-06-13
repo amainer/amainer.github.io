@@ -1,76 +1,153 @@
-<html>
-	<head>
-		<link href="style.css" rel="stylesheet">
-		<title>Your name resume</title>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-	</head>
+<!-- Home and about me -->
+<!--  -->
 
-	<body>
-		<header id="header">
-			<!-- resume header with your name and title -->
-			<h1><b>YOUR</b> NAME</h1>
-			<hr>
-			YOUR TITLE
-			<hr>
-		</header>
-		<main>
-			<article id="mainLeft">
-				<section>
-					<h2>CONTACT</h2>
-					<!-- contact info including social media -->
-                    <p>
-                        <i class="fa fa-envelope" aria-hidden="true"></i>
-                        <a href="mailto:your-email@example.com">your-email@example.com</a>
-                    </p>
-                    <p>
-                        <i class="fab fa-github" aria-hidden="true"></i>
-                        <a href="github.com/gh-username">gh-username</a>
-                    </p>
-                    <p>
-                        <i class="fab fa-linkedin" aria-hidden="true"></i>
-                        <a href="linkedin.com/linkedin-username">linkedin-username</a>
-                    </p>
-				</section>
-				<section>
-					<h2>SKILLS</h2>
-					<!-- your skills AKA "buzzwords" -->
-                    <p>HTML, CSS, GitHub, VS Code...</p>
-				</section>
-				<section>
-					<h2>EDUCATION</h2>
-					<!-- your education -->
-                    <b>YOUR MAJOR</b>
-                    <p>
-                        Your university or school
-                    </p>
-                    <p>
-                        2018-2022
-                    </p>
-				</section>            
-			</article>
-			<article id="mainRight">
-				<section>
-					<h2>ABOUT</h2>
-					<!-- about you -->
-					<p>A brief paragraph about you and what kind of company you want to work for.</p>
-				</section>
-				<section>
-					<h2>WORK EXPERIENCE</h2>
-					<!-- your work experience -->
-                    <h3><b>JOB TITLE</b></h3>
-                    <p>
-                            Company Name | 2008 - 2010
-                    </p>
-                    <p>
-                            Describe what you did in this position with one summary sentence and no more than 3 bullet points with specific highlights
-                    </p>
-                    <ul>
-                            <li>Cool accomplishment</li>
-                            <li>Cool accomplishment</li>
-                            <li>Cool accomplishment</li>
-                    </ul>
-				</section>
-			</article>
-		</main>
-	</body>
+<!DOCTYPE html>
+<html>
+<head>
+<title>Andrew Mainer</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-blue-grey.css">
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="./bootstrap.css">
+<link rel="stylesheet" href="./extra.css">
+<style>
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+</style>
+</head>
+<body class="w3-theme-l4">
+
+<!-- Page Container -->
+<div class="w3-content w3-margin-top" style="max-width:1400px;">
+
+  <!-- The Grid -->
+  <div class="w3-row-padding">
+  
+    <!-- Left Column -->
+    <!-- style="position: -webkit-sticky;position: sticky;top: 10px;" add to w3-quarter class for sticky sidebar -->
+    <div class="w3-quarter">
+    
+      <div class="w3-white w3-text-grey w3-card-4">
+        <div class="w3-display-container" style="padding:10px">
+          <img src="./avatar_hat2.jpg" style="width:100%; border-radius: 10px ;" alt="Avatar">
+        </div>
+        <div class="w3-container">
+          <h2 class="w3-center">Andrew Mainer</h2>
+          <hr>
+
+          <!-- <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i>Designer</p> -->
+          <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>Bentonville, AR</p>
+          <p><i class="fa-brands fa-linkedin fa-fw w3-margin-right w3-large w3-text-teal"></i><a style="text-decoration: none;" href="https://www.linkedin.com/in/andrew-mainer/" target="_blank">LinkedIn</a></p>
+          <!-- https://www.linkedin.com/in/andrew-mainer/ -->
+
+          <!-- <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"></i>1224435534</p> -->
+          <!-- <p><i class="fa-solid fa-file-lines fa-fw w3-margin-right w3-large w3-text-teal"></i>Resume</p> -->
+          <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i>armainer2014@gmail.com</p>
+          <!-- <p><i class="fa fa-facebook-official fa-fw w3-margin-right w3-large w3-text-teal w3-hover-opacity"></i>Facebook</p> -->
+          <hr>
+          <button class="w3-button w3-round-xxlarge w3-block w3-teal" onClick="parent.open('./resume_web.pdf')"> <i class="fa-solid fa-file-lines w3-margin-right w3-large"></i>View Resume PDF</button>
+
+          
+
+          <br>
+        </div>
+      </div>
+      <br>
+
+    <!-- End Left Column -->
+    </div>
+
+    <!-- Right Column -->
+    <div class="w3-twothird">
+    
+      <div class="w3-container w3-card w3-white w3-margin-bottom">
+        <h2 class="w3-text-teal w3-padding-16">About Me</h2>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Personal</b></h5>
+          <p>    A born and bred Arkansan local, I went to high school in Siloam Springs and then later grabbed an engineering degree and MBA from University of Arkansas in Fayetteville. I personally love annoying my wife, grabbing crepes on Saturday mornings, quality time with family and friends, and basketball.</p>
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Professional</b></h5>
+          <p>    I am a business generalist and a hobbyist in supply chain, optimization, process automation, and data science. I love solving problems with sustainable solutions through using large data sets (if available). I've also worked at a startup - setting and implementing strategy without data to guide the way. Data or no data, I can analyze businesses and come up with strategic solutions to big problems, increasing profit through lowering cost and introducing creative ideas to new and existing business models.</p>
+          <hr>
+        </div>
+      </div>
+
+      <div class="w3-container w3-card w3-white">
+        <h2 class="w3-text-teal w3-padding-16">What I'm Working On</h2>
+        <div class="container mt-2">
+
+            <div class="row">
+
+              <div class="col-md-3 col-sm-6">
+                <a href="./Personal_Development/intro">
+                  <div class="card card-block">
+                    <img class="img_test" src="https://static.pexels.com/photos/7096/people-woman-coffee-meeting.jpg" alt="Photo of sunset">
+                    <h5 class="card-title mt-3 mb-3 text-center text-wrap">People Development</h5>
+                  </div>
+                </a>
+              </div>
+
+              <div class="col-md-3 col-sm-6">
+                <a href="./Supply_Chain/intro">
+                  <div class="card card-block">
+                    <img class="img_test" src="https://images.unsplash.com/photo-1565891741441-64926e441838?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1771&q=80" alt="Photo of sunset">
+                    <h5 class="card-title  mt-3 mb-3 text-center">Supply Chain</h5>
+                  </div>
+                </a>
+              </div>
+
+              <div class="col-md-3 col-sm-6">
+                <a href="./Optimization/intro">
+                  <div class="card card-block">
+                    <img class="img_test" src="https://images.unsplash.com/photo-1526566661780-1a67ea3c863e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1769&q=80" alt="Photo of sunset">
+                    <h5 class="card-title  mt-3 mb-3 text-center">Optimization</h5>
+                  </div>
+                </a>
+              </div>
+
+              
+              <div class="col-md-3 col-sm-6">
+                <a href="./data_science/intro">
+                  <div class="card card-block">
+                    <img class="img_test" src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80" alt="Photo of sunset">
+                    <h5 class="card-title  mt-3 mb-3 text-center">Data Science</h5>
+                  </div>
+                </a>
+              </div>    
+              
+            </div>
+            <br>
+          </div>
+      </div>
+
+    <!-- End Right Column -->
+    </div>
+    
+  <!-- End Grid -->
+  </div>
+  
+  <!-- End Page Container -->
+</div>
+
+<br>
+
+<!-- <footer class="w3-container w3-teal w3-center w3-margin-top">
+  <p>Find me on social media.</p>
+  <i class="fa fa-facebook-official w3-hover-opacity"></i>
+  <i class="fa fa-linkedin w3-hover-opacity"></i>
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+</footer> -->
+
+</body>
+
+
 </html>
+
+<!--  -->
+
+
